@@ -1,10 +1,12 @@
 /* Variables */
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;1,300&family=Shizuru&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
 :root {
-  --main-color: rgb(108, 39, 135);
-  --secondary-color: rgba(230, 202, 240, 0.961);
-  --main-font: "Cormorant Garamond", serif;
-  /* --subtitle-font: Cormorant+Garamond:wght@300 */
+  --main-color: #886644;
+  --secondary-color: #f5f3f1;
+  --third-color: #948678;
+  --main-font: 'Old Standard TT', serif;
+  --subtitle-font: 'Open Sans Condensed', sans-serif;
 }
 
 * {
@@ -12,7 +14,6 @@
 }
 
 body {
-  background-color: white;
   height: 100%;
   width: 100%;
 }
@@ -27,7 +28,7 @@ body {
 }
 /* title of name */
 .header h1 {
-  font-family: --main-font;
+  font-family:var(--main-font);
   font-size: 1.5rem;
   display: flex;
   flex-direction: row;
@@ -38,7 +39,7 @@ body {
 }
 
 .header h3 {
-  font-family: --main-font;
+  font-family:var(--main-font);
   font-size: 1.2rem;
   margin: 0;
   padding: 0.5rem 1rem 0.5rem 1rem;
@@ -84,12 +85,12 @@ body {
 }
 
 img:hover {
-  background-color: rgba(230, 202, 240, 0.961);
+  background-color: var(--secondary-color);
 }
 
 h2 {
   font-family: var(--main-font);
-  color: rgb(108, 39, 135);
+  color: var(--main-color);
   font-size: 2rem;
   text-align: center;
 }
@@ -97,7 +98,7 @@ h2 {
 /* subtitle text */
 h4 {
   font-family: var(--main-font);
-  color: --secondary-color;
+  color: var(--third-color);
   font-size: 1.1rem;
   text-align: center;
 }
@@ -112,14 +113,14 @@ p {
 .footer-button-contact {
   display: flex;
   padding: 1rem;
-  color: white;
+  color: var(--third-color);
   text-decoration-style: dotted;
   justify-content: center;
   text-align: center;
 }
 
 .footer-button-contact:hover {
-  background-color: rgba(230, 202, 240, 0.961);
+  background-color: var(--secondary-color);
   width: 100%;
 }
 
@@ -127,20 +128,20 @@ p {
 footer button {
   background-color: black;
   font-size: 1rem;
-  color: rgb(177, 176, 176);
+  color:var(--third-color);
   display: flex;
   text-align: center;
   margin: auto;
 }
 
 footer button:hover {
-  background-color: rgba(230, 202, 240, 0.961);
+  background-color: var(--secondary-color);
 }
 
 /* whole footer */
 footer {
   background-color: rgba(0, 0, 0, 0.673);
-  position: static;
+  position: fixed;
   bottom: 0;
   width: 100%;
   height: 7em;
@@ -152,6 +153,19 @@ footer p {
   margin: 0.5rem;
 }
 
+/* navbar on other pages */
+.navbar{
+  background-color: rgba(0, 0, 0, 0.673);
+  display:flex;
+  justify-content:space-evenly;
+}
+
+.navbar a{
+  color: white;
+  font-style:var(--subtitle-font);
+}
+
+/* other pages layout */
 .container-row {
   display: flex;
 }
@@ -185,12 +199,12 @@ footer p {
 }
 
 .header-goals h1 {
-  font-family: --main-font;
+  font-family:var(--main-font);
   font-size: 9rem;
   align-content: center;
   padding: 6rem 1rem 0rem 1rem;
   margin: 0;
-  color: white;
+  color: var(--secondary-color);
 }
 
 /* form */
@@ -227,6 +241,21 @@ input {
   background-color: var(--secondary-color);
 }
 
+/* Blog Headers */
+.Blog {
+  background-image: url("#");
+  background-position: initial;
+  background-size: cover;
+  min-height: 300px;
+}
+
+.bloglink a:visited{
+  color:var(--third-color);
+}
+
+.bloglink a:link{
+  color:var(--third-color);
+}
 
 /* media queries */
 /* Medium Devices, Desktops */
@@ -272,6 +301,8 @@ projects
 -change images 
 -fix links
 -change text
+- A list of blog posts with titles and date published
+- A blog with FIVE sample posts (placeholder text can be used), blog posts need to have at least ONE image each
 
 goals
 - update text 
@@ -281,3 +312,8 @@ footer
 
 get in contact:
 - add images? 
+
+fix images! - not big load times 
+
+
+TO DO - check the html checker and CSS checker 
