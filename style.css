@@ -31,6 +31,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  text-shadow: 2px 2px;
 }
 
 /* title of name */
@@ -45,6 +46,7 @@ body {
   color: var(--secondary-color);
 }
 
+/* job title in header */
 .header h3 {
   font-family:var(--main-font);
   font-size: 1.2rem;
@@ -72,6 +74,7 @@ body {
   color: gray;
 }
 
+/* social links hover */
 .header-icons button:hover {
   background-color: var(--secondary-color);
 }
@@ -86,7 +89,7 @@ body {
   font-family:'Open Sans Condensed', sans-serif;;
 }
 
-/* index.htm button images */
+/* index.html button images */
 .button img {
   display: flex;
   width: 20%;
@@ -95,6 +98,7 @@ body {
   margin: auto;
 }
 
+/* individual html hovers on images */
 img:hover {
   background-color: var(--secondary-color);
 }
@@ -113,6 +117,13 @@ h4 {
   color: var(--third-color);
   font-size: 1.1rem;
   text-align: center;
+}
+
+/* FONT on form */
+h5{
+  font-family: var(--main-font);
+  color: var(--third-color);
+  margin: 0;
 }
 
 /* PARA on most pages  */
@@ -150,6 +161,7 @@ footer button {
   font-family: var(--main-font);
 }
 
+/* footer - link to homepage - hover */
 footer button:hover {
   background-color: var(--secondary-color);
 }
@@ -166,6 +178,7 @@ footer {
   margin: 0.5rem;
 }
 
+/* copywright text */
 footer p {
   color: white;
   font-size: 0.8rem;
@@ -180,6 +193,7 @@ footer p {
   justify-content:space-evenly;
 }
 
+/* nav bar font */
 .navbar a{
   color: white;
   font-style:var(--subtitle-font);
@@ -196,11 +210,12 @@ footer p {
   filter: grayscale(90%);
 }
 
+/* previously page - split */
 .container-row .text-previously {
   flex: 2;
 }
 
-/* currently page split */
+/* currently page - split */
 .container-row .text-currently {
   flex: 1;
 }
@@ -210,6 +225,7 @@ footer p {
   filter: grayscale(90%);
 }
 
+/* goals header image */
 .header-goals {
   background-image: url("images/smile.jpg");
   background-position: initial;
@@ -218,6 +234,7 @@ footer p {
   filter: grayscale(90%);
 }
 
+/* goals header text */
 .header-goals h1 {
   font-family:var(--main-font);
   font-size: 9rem;
@@ -227,7 +244,7 @@ footer p {
   color: var(--secondary-color);
 }
 
-/* form */
+/* FORM on contact page */
 form {
   font-size: 1.2rem;
   font-weight: bold;
@@ -236,6 +253,7 @@ form {
   flex-direction: column;
 }
 
+/* FORM - input  */
 textarea {
   height: 10rem;
   width: 80%;
@@ -245,54 +263,58 @@ input {
   width: 50%;
 }
 
+/* FORM submit button */
 .submit {
   background-color: var(--main-color);
   color: white;
-  font-size: 1rem;
-  padding: 15px 20px;
-  margin: 10px 0;
+  font-size: 1.5rem;
   border: none;
   cursor: pointer;
   width: 100%;
   text-align:center;
+  padding: 1rem 1rem 1rem 2rem;
 }
 
 .submit:hover{
   background-color: var(--secondary-color);
 }
 
-/* Blog Headers */
-/* .Blog {
-  background-image: url("bookmark.jpg");
-  background-position: initial;
-  background-size: cover;
-  min-height: 300px;
+/* FORM Conact page image 
+#auto-image {
+  float:right;
+  margin: 1rem 2rem 4rem 0;
 } */
 
-/* blog structure in relation with footer */
-/* .Blog ol{
-  margin: 0rem 0rem 4rem 0rem;
-} */
-
-/* blog background images */
-.image {
-  width: 200px;
-  height:200px;
-  position: relative;
+/* BLOG responsive image */
+.textover img {
+  width:100%;
 }
 
-article {
+/* article text over image */
+.textover {
+  position:relative;
+}
+
+.textover article {
   position: absolute;
-  top: 20%;
-  left: 50%;
-  width: 100%;
+  background-color:#f5f3f1;
+  top: 10%;
+  right:5%;;
+  width:60%;
+  border: solid var(--third-color);
+  border-radius: 1rem;
 }
 
-/* main blog page github link  */
+.textover article p{
+  text-align: left;
+}
+
+/* BLOG page github link - visited  */
 .bloglink a:visited{
   color:var(--third-color);
 }
 
+/* BLOG page github link - pre visit  */
 .bloglink a:link{
   color:var(--third-color);
 }
@@ -331,9 +353,7 @@ currently
 - image on wrong side 
 
 Blogs main
--change images 
-- A list of blog posts with titles and date published
-- A blog with FIVE sample posts (placeholder text can be used), blog posts need to have at least ONE image each
+-description 
 
 footer
 - add CV?
