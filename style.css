@@ -20,12 +20,19 @@ body {
 
 /* main homepage picture */
 .header {
-  background-image: url("images/eyes.jpg");
-  background-position: bottom;
-  background-size: cover;
-  min-height: 300px;
+  background-image: url("images/face.jpg");
   filter: grayscale(90%);
+
+  /* image height */
+  height: 600px;
+
+  /* scroll effect for picture */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 /* title of name */
 .header h1 {
   font-family:var(--main-font);
@@ -35,7 +42,7 @@ body {
   align-items: flex-start;
   padding: 4rem 1rem 0rem 1rem;
   margin: 0;
-  color: black;
+  color: var(--secondary-color);
 }
 
 .header h3 {
@@ -44,6 +51,7 @@ body {
   margin: 0;
   padding: 0.5rem 1rem 0.5rem 1rem;
   display: flex;
+  color: var(--secondary-color);
 }
 
 /* social links */
@@ -61,21 +69,24 @@ body {
   font-size: 1rem;
   border-radius: 0.5rem;
   text-decoration: none;
-  color: grey;
+  color: gray;
 }
 
 .header-icons button:hover {
   background-color: var(--secondary-color);
 }
 
-/* includes page links, text & pictures with button */
+/* PAGE TEXT */
 .content div {
   display: flex;
   padding: 1.5rem;
   align-items: center;
   flex-direction: column;
+  margin: 0rem 0rem 4rem 0rem;
+  font-family:'Open Sans Condensed', sans-serif;;
 }
 
+/* index.htm button images */
 .button img {
   display: flex;
   width: 20%;
@@ -88,6 +99,7 @@ img:hover {
   background-color: var(--secondary-color);
 }
 
+/* FONT on most pages */
 h2 {
   font-family: var(--main-font);
   color: var(--main-color);
@@ -95,7 +107,7 @@ h2 {
   text-align: center;
 }
 
-/* subtitle text */
+/* FONT subtitles */
 h4 {
   font-family: var(--main-font);
   color: var(--third-color);
@@ -103,28 +115,31 @@ h4 {
   text-align: center;
 }
 
+/* PARA on most pages  */
 p {
   /* font-family: */
   color: black;
   text-align: center;
+  font-family:var(--subtitle-font);
 }
 
-/* link to contact page */
+/* footer- button and link to contact page */
 .footer-button-contact {
   display: flex;
   padding: 1rem;
   color: var(--third-color);
+  font-family: var(--main-font);
   text-decoration-style: dotted;
   justify-content: center;
   text-align: center;
 }
-
+/* footer - hover of button */
 .footer-button-contact:hover {
   background-color: var(--secondary-color);
   width: 100%;
 }
 
-/* link to homepage on other pages */
+/* footer - link to homepage on other pages */
 footer button {
   background-color: black;
   font-size: 1rem;
@@ -132,25 +147,30 @@ footer button {
   display: flex;
   text-align: center;
   margin: auto;
+  font-family: var(--main-font);
 }
 
 footer button:hover {
   background-color: var(--secondary-color);
 }
 
-/* whole footer */
+/*whole footer */
 footer {
   background-color: rgba(0, 0, 0, 0.673);
   position: fixed;
   bottom: 0;
+  left:0;
+  right: 0;
   width: 100%;
-  height: 7em;
+  height: 6rem;
+  margin: 0.5rem;
 }
 
 footer p {
   color: white;
   font-size: 0.8rem;
   margin: 0.5rem;
+  font-family:var(--main-font);
 }
 
 /* navbar on other pages */
@@ -242,13 +262,33 @@ input {
 }
 
 /* Blog Headers */
-.Blog {
-  background-image: url("#");
+/* .Blog {
+  background-image: url("bookmark.jpg");
   background-position: initial;
   background-size: cover;
   min-height: 300px;
+} */
+
+/* blog structure in relation with footer */
+/* .Blog ol{
+  margin: 0rem 0rem 4rem 0rem;
+} */
+
+/* blog background images */
+.image {
+  width: 200px;
+  height:200px;
+  position: relative;
 }
 
+article {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  width: 100%;
+}
+
+/* main blog page github link  */
 .bloglink a:visited{
   color:var(--third-color);
 }
@@ -279,41 +319,33 @@ input {
   }
 }
 /* notes: 
-all:
-- change colors to resume style 
-- Change font to same? 
--make <p> font 
-- finish text
 
 form:
 - fix reset on form 
 - email button not working 
 
 previously
--fix footer 
 -fix image in larger views - doesnt expand 
 
 currently 
 - image on wrong side 
-- same issues as previously 
 
-projects
+Blogs main
 -change images 
--fix links
--change text
 - A list of blog posts with titles and date published
 - A blog with FIVE sample posts (placeholder text can be used), blog posts need to have at least ONE image each
 
-goals
-- update text 
-
 footer
-- add another white section to footer and move copy right into that
+- add CV?
 
-get in contact:
-- add images? 
 
 fix images! - not big load times 
 
+contact page
+- check font
+- add picture 
 
-TO DO - check the html checker and CSS checker 
+
+TO DO 
+- check the html checker and CSS checker 
+- double check all text 
