@@ -91,7 +91,6 @@ body {
 /* index.html button images */
 .button img {
   display: flex;
-  width: 50%;
   align-items: center;
   display: block;
   margin: auto;
@@ -278,12 +277,6 @@ input {
 .submit:hover{
   background-color: var(--secondary-color);
 }
-
-/* FORM Conact page image 
-#auto-image {
-  float:right;
-  margin: 1rem 2rem 4rem 0;
-} */
 
 /* BLOG responsive image */
 .textover img {
