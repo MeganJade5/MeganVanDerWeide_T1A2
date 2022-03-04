@@ -235,11 +235,11 @@ footer p {
 /* FORM HERE */
 
 /* text with image layout */
-.content{
+.contactpage{
   display:flex;
 }
 
-.content img {
+.contactpage img {
   max-width: 30%;
   max-height:30%;;
   margin: 2rem;
