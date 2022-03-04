@@ -8,13 +8,43 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
+  <!-- nav bar -->
+      <div class="navbar">
+        <a href="index.html"> Return Home</a>
+        <a href="previously.html">Previously</a>
+        <a href="currently.html">Currently</a>
+        <a href="blogs.html">Blogs</a>
+        <a href="goals.html">Goals</a>
+      </div>
 
   <!-- Header of page and text -->
         <section class="content">
             <h2> Get in contact with Megan </h2>
-        </section>
+            <img src="images/auto_900.jpg" alt="megan at an automation console overlooking a stage">
+         </section>
 
-    <div class="header-icons">
+    <!-- form input boxes and titles  -->
+     <form id="my-form" autocomplete="off" onsubmit="return process()" action=”mailto:megan.vanderweide@gmail.com”
+     method=”POST”enctype=”multipart/form-data”name=”Portfolio-Form”>
+     
+     <h5>Your Name:</h5>
+    <input type=”text” size=”14″ name=”ContactName” style="width:50%"><br>
+
+    <h5>Your Email:<h5>
+    <input type=”text” size=”14″ name=”ContactEmail” style="width:50%"><br></br>
+
+   
+    <h5>Your question or query:</h5>
+    <textarea name=”ContactComment” rows=”6″ cols=”20″></textarea><br><br> 
+    
+    <input type=”submit” value="Submit" class="submit"> </form>
+    </form><br></br>
+
+    <footer style="height:5rem; background-color: rgba(69, 67, 67, 0.673);">
+  <!-- contact page link -->
+        <p>&copy Megan Van Der Weide 2022</p>
+
+        <div class="header-icons" style="width:100%;">
     <!-- social media links -->
         <a
           href="https://www.linkedin.com/in/megan-van-der-weide-0269b0232/"
@@ -32,34 +62,6 @@
         <a href="/file/Megancv.pdf" download>
           <button type="button">CV</button>
         </a>
-      </div><br></br>
-
-    <!-- form input boxes and titles  -->
-     <form id="my-form" autocomplete="off" onsubmit="return process()" action=”mailto:megan.vanderweide@gmail.com”
-     method=”POST”enctype=”multipart/form-data”name=”Portfolio-Form”>
-     
-     <h5>Your Name:</h5>
-    <input type=”text” size=”14″ name=”ContactName”><br>
-
-    <h5>Your Email:<h5>
-    <input type=”text” size=”14″ name=”ContactEmail”><br></br>
-    <h5>Your question or query:</h5>
-    <textarea name=”ContactComment” rows=”6″ cols=”20″></textarea><br><br> 
-    
-    <input type=”submit” value="Submit" class="submit"> </form>
-
-    </form>
-
-    <footer>
-  <!-- contact page link -->
-      <div>
-        <p>&copy Megan Van Der Weide 2022</p>
-      </div>
-
-  <!-- return home -->
-      <div>
-        <a href="index.html">
-          <button type="button">Return to homepage</button></a>
       </div>
     </footer>
     </body>

@@ -43,31 +43,32 @@ body {
   padding: 4rem 1rem 0rem 1rem;
   margin: 0;
   color: var(--secondary-color);
+  width: 60%
 }
 
 /* job title in header */
 .header h3 {
   font-family:var(--main-font);
-  font-size: 1.2rem;
   margin: 0;
   padding: 0.5rem 1rem 0.5rem 1rem;
   display: flex;
   color: var(--secondary-color);
+  width: 60%;
 }
 
 /* social links */
 .header-icons {
-  padding: 0rem 14rem 0rem 1rem;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 26rem;
+  justify-content: space-around;
+  align-items: center;
+  width: 30%;
+  margin: 0 0 0 1rem;
 }
 
 /* link to cv PDF */
 .header-icons button {
   background-color: black;
-  font-size: 1rem;
+  font-size: 1.1rem;
   border-radius: 0.5rem;
   text-decoration: none;
   color: gray;
@@ -78,7 +79,7 @@ body {
   background-color: var(--secondary-color);
 }
 
-/* PAGE TEXT */
+/* HOMEPAGE TEXT */
 .content div {
   display: flex;
   padding: 1.5rem;
@@ -97,7 +98,7 @@ body {
 }
 
 /* individual html hovers on images */
-img:hover {
+.button img:hover {
   background-color: var(--secondary-color);
   border: solid 0.3rem var(--main-color);
 }
@@ -149,22 +150,6 @@ p {
   width: 100%;
 }
 
-/* footer - link to homepage on other pages */
-footer button {
-  background-color: black;
-  font-size: 1rem;
-  color:var(--third-color);
-  display: flex;
-  text-align: center;
-  margin: auto;
-  font-family: var(--main-font);
-}
-
-/* footer - link to homepage - hover */
-footer button:hover {
-  background-color: var(--secondary-color);
-}
-
 /*whole footer */
 footer {
   background-color: rgba(0, 0, 0, 0.673);
@@ -198,30 +183,34 @@ footer p {
   font-style:var(--subtitle-font);
 }
 
-/* other pages layout */
-.container-row {
-  display: flex;
-}
-
-/* previously page split */
-.container-row .img-previously {
-  flex: 1;
-  filter: grayscale(90%);
-}
-
-/* previously page - split */
-.container-row .text-previously {
-  flex: 2;
-}
-
 /* currently page - split */
-.container-row .text-currently {
-  flex: 1;
+.container-row {
+  display:flex;
+  flex-direction:row-reverse;
+  filter: grayscale(90%);
 }
 
-.container-row .img-currently {
-  flex: 1;
+/* gap below image and footer */
+.container-row img{
+  margin: 0rem 0rem 5.7rem 0rem;
+}
+
+.container-row2 img{
+  margin: 0rem 0rem 5.7rem 0rem;
+}
+
+/* previously pages layout */
+.container-row2 {
+  display: flex;
   filter: grayscale(90%);
+}
+
+.content-pages div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0rem 0rem 4rem 0rem;
+  font-family:'Open Sans Condensed', sans-serif;;
 }
 
 /* goals header image */
@@ -243,6 +232,19 @@ footer p {
   color: var(--secondary-color);
 }
 
+/* FORM HERE */
+
+/* text with image layout */
+.content{
+  display:flex;
+}
+
+.content img {
+  max-width: 30%;
+  max-height:30%;;
+  margin: 2rem;
+  justify-content: space-between;
+}
 /* FORM on contact page */
 form {
   font-size: 1.2rem;
@@ -258,10 +260,6 @@ textarea {
   width: 80%;
 }
 
-input {
-  width: 50%;
-}
-
 /* FORM submit button */
 .submit {
   background-color: var(--main-color);
@@ -271,7 +269,8 @@ input {
   cursor: pointer;
   width: 100%;
   text-align:center;
-  padding: 1rem 1rem 1rem 2rem;
+  padding: 1rem;
+  margin: 0rem 0rem 3rem 0rem;
 }
 
 .submit:hover{
@@ -281,12 +280,12 @@ input {
 /* BLOG responsive image */
 .textover img {
   width:100%;
-  height: 100%;
 }
 
 /* article text over image */
 .textover {
   position:relative;
+  margin: 0rem 0rem 5.7rem 0rem;
 }
 
 .textover article {
@@ -323,6 +322,28 @@ input {
   .content div {
     width: 50%;
   }
+
+  /* currently and previously pages  */
+  .content-pages{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .container-row img{
+  width: 100%;
+  }
+
+  .container-row2 img{
+  width: 100%;
+  }
+
+  .text{
+  width: 70%;
+  }
+
+  .textover img{
+    size: 100%;
+  }
 }
 
 @media only screen and (min-width: 1000px) {
@@ -333,39 +354,30 @@ input {
     width: 100%;
     flex: 1;
   }
-}
+
+/* currently and previously pages  */
+  .content-pages {
+    display: flex;
+  }
+  .content-pages div {
+    width: 100%;
+    flex: 1;
+  }
 /* notes: 
 
-ALL OTHERS:
-fix the stretch out size
 
 form:
 - fix reset on form 
 - email button not working 
 
-previously
--fix image in larger views - doesnt expand 
-
-currently 
-- image on wrong side 
-
-Blogs main
+ALL 
 -description 
-
-BLOGS 
--images with article??? 
-
-footer
-- add CV?
-
-
-fix images! - not big load times 
-
-contact page
-- check font
-- add picture 
 
 
 TO DO 
 - check the html checker and CSS checker 
-- double check all text 
+
+transfer folders of all portfolio 
+
+do the read me
+finis ppt slides 
