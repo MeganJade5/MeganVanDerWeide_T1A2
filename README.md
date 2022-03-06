@@ -1,10 +1,10 @@
-**Website link:**[Megan's Portfolio] (https://www.meganvanderweide.com/)
+**Website link:** [Megans Portfolio](https://www.meganvanderweide.com/)
 
-**Github repo:** [Megan's Github](https://github.com/MeganJade5/MeganVanDerWeide_T1A2.git)
+**Github repo:** [Megans Github](https://github.com/MeganJade5/MeganVanDerWeide_T1A2.git)
 
-**Git log:** 
+**Git log:** [Megans Gitlog](gitlog.txt)
 
-#Purpose
+# Purpose
 
 The purpose of this website is to showcase my coding skills, present my professional personality and to drive my audience to contact me for a job in web development. This call to action is achieved through the portfolios structure, layout, responsive design, content and style. In addition the website is to be accessible from any device and for all audiences. 
 
@@ -13,7 +13,7 @@ The website aims to appeal to the curiosity of my audience by inviting them into
 The websites is designed to capture the audiences attention. By styling with a minimalist approach the user experience simple and easy to use. The layout is focused on making the information clear and cohesive whilst also presenting the subject with a brand identity. 
 The website is a prequel to the CV provided and the styling choices reflect this. 
 
-#Functionality and Features
+# Functionality and Features
 
 The site is across 6 pages with external and internal links to blog posts, social media links and CV. The portfolio site is structured with breadcrumbs of navigation, with every page having links to the other through a navigation bar. In addition there are elements of interactive navigations through graphical and textual components. Both versions of navigation ensures that the busy audience can navigate the website simply and not be irritated by any complexities or confusion. All pages have a footer which leads to the “contact page.” Every page has the direct ability for the viewer to contact the subject, therefore fulfilling the websites purpose.
 
@@ -33,40 +33,40 @@ The site is across 6 pages with external and internal links to blog posts, socia
 
 **CV:** The CV is found on the homepage and contact page as an external button. When pressed the user receives a downloaded PDF version. The website is the prequel to the CV and it shares familiar design colours and line drawings as found on the homepage. These design features are to intertwine the two and stamp the brand identity into the audiences memory. 
 
-#Sitemap
+# Sitemap
 
 The site flows by showcasing the content with a start middle and end. This is achieved through smooth navigations between each page. The site begins with the homepage which has the subjects name and important content such as relevant skills and professional links. The site then provides the viewer with updated information in “currently” and then gives the viewer the subjects history in “previously.” It then allows the user to navigate to the viewers blogs. The navigation then leads to the subjects future goal page. Finally the site is sandwiched with the contact page. 
 
-![Homepage] (/docs/readme-image9.png)
+![Homepage](/docs/readme-image9.png)
 
 
-#Screenshots
+# Screenshots
 
-##Homepage - index.html 
-![Homepage] (/docs/readme-image1.png)
+## Homepage - index.html 
+![Homepage](/docs/readme-image1.png)
 
-##Currently.html
-![Currently] (/docs/readme-image2.png)
+## Currently.html
+![Currently](/docs/readme-image2.png)
 
-##Previously.html
-![Previously] (/docs/readme-image3.png)
+## Previously.html
+![Previously](/docs/readme-image3.png)
 
-##Blogs.html
-![Blogs] (/docs/readme-image4.png)
+## Blogs.html
+![Blogs](/docs/readme-image4.png)
 
-##blog1.html
-![Blog1] (/docs/readme-image7.png)
+## blog1.html
+![Blog1](/docs/readme-image7.png)
 
-##Goals.html
-![Goals] (/docs/readme-image5.png)
+## Goals.html
+![Goals](/docs/readme-image5.png)
 
-##Contact.html 
-![Contact] (/docs/readme-image6.png)
+## Contact.html 
+![Contact](/docs/readme-image6.png)
 
-##CV
-![CV] (/docs/readme-image8.png)
+## CV
+![CV](/docs/readme-image8.png)
 
-#Target audience
+# Target audience
 
 The audience is a future employer who is impressionable, busy, has relatable technical knowledge and requires information about the subject. The site uses a professional tone and language familiar to its audience.
 
@@ -78,6 +78,6 @@ The responsive design provides the employer to look at my website on the go, the
 
 The site is also accessible to audiences with disabilities.
 
-#Tech stack
+# Tech stack
 
 The site is built with HTML and CSS. The website is deployed on Netlify. 

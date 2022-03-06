@@ -1,0 +1,174 @@
+commit f2e34c51aeeacf7829ca856a333b735143adc9fd
+Merge: 7b64233 eb98afb
+Author: Megan Van Der Weide <meganvanderweide@Megans-MacBook-Air.local>
+Date:   Sun Mar 6 20:10:27 2022 +1100
+
+    fix to tree
+
+commit 7b64233ecaf317dbde3029fb25c5bc99315c80f0
+Author: Megan Van Der Weide <meganvanderweide@Megans-MacBook-Air.local>
+Date:   Sun Mar 6 20:05:59 2022 +1100
+
+    ds store
+
+commit 40f9e36a9cae212571e354d26b54fdfbf5e142f9
+Author: Megan Van Der Weide <meganvanderweide@Megans-MacBook-Air.local>
+Date:   Sun Mar 6 20:00:31 2022 +1100
+
+    added Readme
+
+commit eb98afb78ccf689aef1397ec0469e0972d8e827f
+Author: MeganJade5 <98874054+MeganJade5@users.noreply.github.com>
+Date:   Sat Mar 5 17:19:18 2022 +1100
+
+    Delete .DS_Store
+
+commit 55292ec32c513ae86d27ead18cb3b8d4516385b0
+Author: Megan Van Der Weide <meganvanderweide@Megans-MacBook-Air.local>
+Date:   Sat Mar 5 17:18:12 2022 +1100
+
+    ppt
+
+commit e1ef7801eaed5d33d98f96bc45cecae0980421b8
+Author: Megan Van Der Weide <meganvanderweide@Megans-MacBook-Air.local>
+Date:   Sat Mar 5 17:14:56 2022 +1100
+
+    fix
+
+commit ac2847e26ee61c625a143349f0de45c93fb20be7
+Author: Megan Van Der Weide <meganvanderweide@Megans-MacBook-Air.local>
+Date:   Sat Mar 5 17:08:36 2022 +1100
+
+    folders
+
+commit 35002eab92b909a8f1935c66c724df15ceca3576
+Author: Megan Van Der Weide <meganvanderweide@Megans-MacBook-Air.local>
+Date:   Sat Mar 5 16:58:10 2022 +1100
+
+    fix folder
+
+commit e8fa821bd2e3aab1dcb3e45a58c4e2d6a8d2b0e7
+Author: Megan Van Der Weide <meganvanderweide@Megans-MacBook-Air.local>
+Date:   Sat Mar 5 16:54:53 2022 +1100
+
+    add of ppt and docs
+
+commit 0dad6b6faeb2c7c152b94a826ec9bc038dc32610
+Author: Megan Van Der Weide <meganvanderweide@Megans-MacBook-Air.local>
+Date:   Sat Mar 5 16:49:42 2022 +1100
+
+    add docs file
+
+commit 4b2ee1ff0deaa9e4c0197417e1684fb68e986f19
+Author: Megan Van Der Weide <meganvanderweide@Megans-MacBook-Air.local>
+Date:   Sat Mar 5 16:17:12 2022 +1100
+
+    new folder structure
+
+commit 91a95c845db1ac4203dc056ed2546c9977c90023
+Author: Megan Van Der Weide <meganvanderweide@Megans-MacBook-Air.local>
+Date:   Sat Mar 5 12:32:37 2022 +1100
+
+    complete
+
+commit 5a72ebf73af43c7a1c8ca5fa27d5d96db0db6b90
+Author: Megan Van Der Weide <meganvanderweide@Megans-MacBook-Air.local>
+Date:   Fri Mar 4 14:28:27 2022 +1100
+
+    homepage fixes
+
+commit 05acefa4a18b76bd0533312bfc997e6e91804521
+Author: Megan Van Der Weide <meganvanderweide@Megans-MacBook-Air.local>
+Date:   Fri Mar 4 14:26:02 2022 +1100
+
+    adjustments made to contact page
+
+commit 8bc0568dcb05d3f3c1ff238b17a367cca6e51074
+Author: Megan Van Der Weide <meganvanderweide@Megans-MacBook-Air.local>
+Date:   Fri Mar 4 10:14:02 2022 +1100
+
+    index.html icon width changes
+
+commit e5bd79ba9fb01a22dfaf3c5978020d6d2127ab62
+Author: Megan Van Der Weide <meganvanderweide@Megans-MacBook-Air.local>
+Date:   Fri Mar 4 08:59:03 2022 +1100
+
+    change to blog images
+
+commit ef9c4b52fd8b63b17def6a2445f03c168ef4c1b6
+Author: Megan Van Der Weide <meganvanderweide@Megans-MacBook-Air.local>
+Date:   Fri Mar 4 08:21:45 2022 +1100
+
+    changes made to blog images and fix of css for blogs
+
+commit 62eb4fca715077b30a528eac3866112470a810e1
+Author: Megan Van Der Weide <meganvanderweide@Megans-MacBook-Air.local>
+Date:   Thu Mar 3 21:48:53 2022 +1100
+
+    fix homepage icons
+
+commit 6b8d814b0390965d07206e18239516bb368b7346
+Author: Megan Van Der Weide <meganvanderweide@Megans-MacBook-Air.local>
+Date:   Thu Mar 3 21:42:38 2022 +1100
+
+    contact sheet still in progress
+
+commit 4d443b25fd4bf299f5e13f7c30c9a329b3759f81
+Author: Megan Van Der Weide <meganvanderweide@Megans-MacBook-Air.local>
+Date:   Thu Mar 3 17:52:42 2022 +1100
+
+    hcanges made to homepage after feedback and images after imagoptim
+
+commit 35879ea81b571489c724cd86a756ab2a36ece08e
+Author: Megan Van Der Weide <meganvanderweide@Megans-MacBook-Air.local>
+Date:   Wed Mar 2 21:22:36 2022 +1100
+
+    changes to colors and added blogs
+
+commit 9d8231c26cbbd43f52af18e8d5c8cb4380bb805a
+Author: Megan Van Der Weide <meganvanderweide@Megans-MacBook-Air.local>
+Date:   Wed Mar 2 16:47:00 2022 +1100
+
+    notes added to css
+
+commit c7d165f627c2f294428244c0b70dae739f4b4a60
+Author: Megan Van Der Weide <meganvanderweide@Megans-MacBook-Air.local>
+Date:   Tue Mar 1 13:23:53 2022 +1100
+
+    updates of media queries
+
+commit ffc8bebef9736306c1ed322291f423413b84eca0
+Author: Megan Van Der Weide <meganvanderweide@Megans-MacBook-Air.local>
+Date:   Tue Mar 1 11:17:45 2022 +1100
+
+    working on previously
+
+commit dc3fb89bf53dba26faa0e1dcffa77805b6a59218
+Author: Megan Van Der Weide <meganvanderweide@Megans-MacBook-Air.local>
+Date:   Mon Feb 28 14:50:14 2022 +1100
+
+    progress post Glen help
+
+commit 3e7ebcb8e94cd06f18b71966e04a323f05619218
+Author: Megan Van Der Weide <meganvanderweide@Megans-MacBook-Air.local>
+Date:   Sun Feb 27 12:22:08 2022 +1100
+
+    html of other pages
+
+commit 2bbf12471207c0b61e0fabdf97b33a62ad457c50
+Author: Megan Van Der Weide <meganvanderweide@Megans-MacBook-Air.local>
+Date:   Sat Feb 26 18:44:30 2022 +1100
+
+    update to homepage and adding new page called previously. progress on css
+
+commit dbd7400b02e484194166c8c69db1210da4a9b05a
+Author: Megan Van Der Weide <meganvanderweide@Megans-MacBook-Air.local>
+Date:   Fri Feb 25 16:24:05 2022 +1100
+
+    homepage progress
+
+commit 51f442c42dc6c08033ec1b346814616ae5154532
+Author: Megan Van Der Weide <meganvanderweide@Megans-MacBook-Air.local>
+Date:   Wed Feb 23 18:53:34 2022 +1100
+
+    initial commit
